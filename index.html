@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="description" content="Key2WealthFX — professional forex education, strategies, signals, and tools. Buy our eBooks, strategy PDFs and join the EA waitlist."/>
+  <title>Key2WealthFX — Trade Smarter</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#071331;
+      --card:#071a3a;
+      --accent:#d4af37;
+      --muted:#9fb0d6;
+      --glass: rgba(255,255,255,0.03);
+      --radius:12px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial; background:linear-gradient(180deg,#051226 0%, var(--bg) 100%); color:#eaf0ff; -webkit-font-smoothing:antialiased}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:48px;height:48px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#b0892a);display:flex;align-items:center;justify-content:center;color:#071331;font-weight:700;font-family:Montserrat}
+    nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-weight:600}
+    nav a.cta{background:var(--accent);color:#071331;padding:10px 16px;border-radius:999px;margin-left:14px;text-decoration:none}
+    /* Hero */
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;margin-top:18px}
+    .hero .eyebrow{color:var(--accent);font-weight:700;letter-spacing:1px}
+    .hero h1{font-family:Montserrat, sans-serif;font-size:2.1rem;margin:10px 0;color:#fff;line-height:1.05}
+    .hero p{color:var(--muted);margin:14px 0;font-size:1rem}
+    .hero .actions{display:flex;gap:12px;margin-top:12px}
+    .btn{background:var(--accent);color:#071331;padding:12px 18px;border-radius:10px;font-weight:700;text-decoration:none;display:inline-block}
+    .btn.ghost{background:transparent;color:var(--accent);border:1px solid rgba(255,255,255,0.06)}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 8px 30px rgba(2,6,23,0.6)}
+    .product-compact{display:flex;flex-direction:column;gap:12px}
+    .product-compact h3{margin:0;color:#fff;font-size:1.05rem}
+    .product-compact .meta{color:var(--muted);font-size:0.95rem}
+    .price{font-weight:800;color:#071331;background:#ffd86b;padding:6px 10px;border-radius:8px;display:inline-block}
+    /* Features */
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}
+    .feature{background:var(--glass);padding:18px;border-radius:10px;border:1px solid rgba(255,255,255,0.02)}
+    .feature h4{margin:0;color:var(--accent);font-family:Montserrat;}
+    .feature p{margin:8px 0 0;color:var(--muted);font-size:0.95rem}
+    /* Products grid */
+    .products{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:22px}
+    .product{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
+    .product h3{margin:0 0 8px}
+    .product .desc{color:var(--muted);font-size:0.95rem;margin-bottom:12px}
+    .product .row{display:flex;align-items:center;justify-content:space-between;gap:10px}
+    .small{font-size:0.9rem;color:var(--muted)}
+    /* Testimonials */
+    .testimonials{margin-top:30px;display:flex;gap:12px;overflow:auto;padding-bottom:6px}
+    .testimonial{min-width:260px;background:var(--card);padding:16px;border-radius:10px;border:1px solid rgba(255,255,255,0.02)}
+    .testimonial p{color:var(--muted);font-size:0.95rem;margin:10px 0 0}
+    /* Footer */
+    footer{margin-top:40px;padding:28px 0;border-top:1px solid rgba(255,255,255,0.03);color:var(--muted);font-size:0.95rem;text-align:center}
+    /* Responsive */
+    @media (max-width:980px){.hero{grid-template-columns:1fr 320px} .features{grid-template-columns:repeat(2,1fr)} .products{grid-template-columns:repeat(2,1fr)}}
+    @media (max-width:640px){.hero{grid-template-columns:1fr;gap:16px}.products{grid-template-columns:1fr}.features{grid-template-columns:1fr}.nav-wrap{display:none} header{padding:16px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">K2W</div>
+        <div>
+          <div style="font-weight:700">Key2WealthFX</div>
+          <div style="font-size:0.85rem;color:var(--muted)">Powered by Logic</div>
+        </div>
+      </div>
+      <nav class="nav-wrap">
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#ea-waitlist">EA (Waitlist)</a>
+        <a href="#contact">Contact</a>
+        <a class="cta" href="#free-ebook">Get eBook</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <div class="eyebrow">Forex Education</div>
+          <h1>Start trading smarter with simple rules and clear analysis</h1>
+          <p>Key2WealthFX gives you concise education, market analysis, and sell-ready tools so you can trade reversals with confidence. Buy guides, subscribe for signals, or join the EA waitlist.</p>
+          <div class="actions">
+            <a class="btn" href="#free-ebook">Get eBook — $9.99</a>
+            <a class="btn ghost" href="https://t.me/Key2WealthFX" target="_blank">Join Telegram</a>
+          </div>
+
+          <div class="features" style="margin-top:22px">
+            <div class="feature">
+              <h4>Actionable strategies</h4>
+              <p>Practical, repeatable steps that traders can apply immediately.</p>
+            </div>
+            <div class="feature">
+              <h4>Trusted delivery</h4>
+              <p>Payments & instant downloads handled by Payhip for security.</p>
+            </div>
+            <div class="feature">
+              <h4>Built for beginners</h4>
+              <p>Clear explanations and visual examples to speed learning.</p>
+            </div>
+          </div>
+        </div>
+
+        <aside class="card">
+          <div class="product-compact">
+            <h3>Featured</h3>
+            <div class="meta small">Forex for Beginners<br><span class="price">$9.99</span></div>
+            <p style="color:var(--muted);margin:8px 0">Buy the beginner's guide to supply & demand reversals. Instant download via Payhip.</p>
+            <div style="display:flex;gap:8px">
+              <a class="btn" href="https://payhip.com/b/your-ebook-link" target="_blank">Buy eBook</a>
+              <a class="btn ghost" href="#products">View Products</a>
+            </div>
+          </div>
+
+          <hr style="border:none;border-top:1px solid rgba(255,255,255,0.04);margin:16px 0">
+
+          <div style="display:flex;gap:10px;align-items:center;justify-content:space-between">
+            <div>
+              <div class="small">Signals</div>
+              <div style="font-weight:700">$50 / month</div>
+            </div>
+            <a class="btn ghost" href="https://t.me/Key2WealthFX" target="_blank">Subscribe</a>
+          </div>
+        </aside>
+      </section>
+
+      <section id="products">
+        <h2>Products</h2>
+        <div class="products">
+          <div class="product">
+            <h3>Forex for Beginners eBook</h3>
+            <div class="desc">Comprehensive beginner guide to trading reversals with supply & demand. Easy to follow with charts and examples.</div>
+            <div class="row">
+              <div class="small">$9.99 • PDF</div>
+              <a class="btn" href="https://payhip.com/b/your-ebook-link" target="_blank">Buy Now</a>
+            </div>
+          </div>
+
+          <div class="product">
+            <h3>Reversal Strategy PDF</h3>
+            <div class="desc">Detailed strategy breakdown with rules you can apply to multiple timeframes.</div>
+            <div class="row">
+              <div class="small">$25 • PDF</div>
+              <a class="btn" href="https://payhip.com/b/your-strategy-link" target="_blank">Buy Now</a>
+            </div>
+          </div>
+
+          <div class="product">
+            <h3>Expert Advisor (EA)</h3>
+            <div class="desc">Automated EA — coming soon. Join the waitlist to get early access and launch pricing.</div>
+            <div class="row">
+              <div class="small">Waitlist • $99</div>
+              <a class="btn" href="https://payhip.com/b/your-ea-waitlist-link" target="_blank">Join Waitlist</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section style="margin-top:28px">
+        <h2>Testimonials</h2>
+        <div class="testimonials">
+          <div class="testimonial card">
+            <strong>Thabo N.</strong>
+            <p>"Clear, no-fluff strategies. My risk management improved and I feel more confident trading reversals."</p>
+          </div>
+          <div class="testimonial card">
+            <strong>Aisha K.</strong>
+            <p>"The eBook gave me the framework I needed to stop guessing and follow a plan."</p>
+          </div>
+          <div class="testimonial card">
+            <strong>Mark R.</strong>
+            <p>"Signals are timely and easy to implement alongside the strategy guide."</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="ea-waitlist" style="margin-top:28px">
+        <h2>EA Pre-launch</h2>
+        <div class="card" style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
+          <div style="flex:1">
+            <h3>Key2WealthFX EA — Waitlist</h3>
+            <p class="small" style="color:var(--muted)">Join the waitlist to be first in line for the EA release. We'll notify buyers by email and offer early access.</p>
+            <ol style="color:var(--muted)">
+              <li>Join waitlist (Payhip)</li>
+              <li>Get notified at release</li>
+              <li>Download instantly via Payhip</li>
+            </ol>
+          </div>
+          <div style="min-width:220px;text-align:center">
+            <a class="btn" href="https://payhip.com/b/your-ea-waitlist-link" target="_blank">Join Waitlist — $99</a>
+            <div style="margin-top:8px;color:var(--muted);font-size:0.9rem">Secure checkout • Instant notifications</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" style="margin-top:28px">
+        <h2>Contact & Support</h2>
+        <div class="card" style="display:flex;gap:18px;align-items:center;flex-wrap:wrap">
+          <div style="flex:1">
+            <p style="margin:0">Email: <a href="mailto:Key2WealthFX@gmail.com" style="color:var(--accent);text-decoration:none">Key2WealthFX@gmail.com</a></p>
+            <p style="margin:4px 0 0">Telegram: <a href="https://t.me/Key2WealthFX" target="_blank" style="color:var(--accent);text-decoration:none">t.me/Key2WealthFX</a></p>
+            <p style="margin:4px 0 0">Phone: <a href="tel:+27676707510" style="color:var(--accent);text-decoration:none">067 670 7510</a></p>
+          </div>
+          <div style="min-width:200px;text-align:right;color:var(--muted)">
+            <div style="font-weight:700">Secure payments</div>
+            <div style="font-size:0.9rem">Processed by Payhip (PayPal payouts)</div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div style="max-width:900px;margin:0 auto;padding:6px">
+        <div style="margin-bottom:8px">&copy; 2025 Key2WealthFX — All rights reserved.</div>
+        <div style="font-size:0.9rem;color:var(--muted)">Disclaimer: Trading carries risk. This site provides educational materials and tools; nothing here is financial advice.</div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
